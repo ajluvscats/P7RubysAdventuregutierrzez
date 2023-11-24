@@ -15,7 +15,11 @@ C:/Users/Per1Student/Documents/Unity/GitHub/P7RubysAdventuregutierrzez/RubysAdve
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< HEAD
 52748
+=======
+58757
+>>>>>>> 8cc21602583373c01260deee5013f86d6232bc5e
 Successfully changed project path to: C:/Users/Per1Student/Documents/Unity/GitHub/P7RubysAdventuregutierrzez/RubysAdventure
 C:/Users/Per1Student/Documents/Unity/GitHub/P7RubysAdventuregutierrzez/RubysAdventure
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +53,19 @@ C:/Users/Per1Student/Documents/Unity/GitHub/P7RubysAdventuregutierrzez/RubysAdve
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< HEAD
 Player connection [27536] Host "[IP] 10.20.255.20 [Port] 0 [Flags] 2 [Guid] 4028913980 [EditorId] 4028913980 [Version] 1048832 [Id] WindowsEditor(7,20GAME111919) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [27536] Host "[IP] 10.20.255.20 [Port] 0 [Flags] 2 [Guid] 4028913980 [EditorId] 4028913980 [Version] 1048832 [Id] WindowsEditor(7,20GAME111919) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Refreshing native plugins compatible for Editor in 34.75 ms, found 4 plugins.
+=======
+Player connection [33772] Host "[IP] 10.20.255.20 [Port] 0 [Flags] 2 [Guid] 2075863872 [EditorId] 2075863872 [Version] 1048832 [Id] WindowsEditor(7,20GAME111919) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [33772] Host "[IP] 10.20.255.20 [Port] 0 [Flags] 2 [Guid] 2075863872 [EditorId] 2075863872 [Version] 1048832 [Id] WindowsEditor(7,20GAME111919) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 30.87 ms, found 4 plugins.
+>>>>>>> 8cc21602583373c01260deee5013f86d6232bc5e
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.7f1 (b16b3b16c7a0)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Resources/UnitySubsystems
@@ -69,6 +81,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56112
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -80,11 +93,25 @@ Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.172 seconds
 Domain Reload Profiling: 463ms
 	BeginReloadAssembly (109ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006672 seconds.
+- Loaded All Assemblies, in  0.287 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.165 seconds
+Domain Reload Profiling: 451ms
+	BeginReloadAssembly (119ms)
+>>>>>>> 8cc21602583373c01260deee5013f86d6232bc5e
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 	RebuildCommonClasses (23ms)
 	RebuildNativeTypeToScriptingClass (6ms)
 	initialDomainReloadingComplete (41ms)
@@ -107,6 +134,30 @@ Domain Reload Profiling: 463ms
 			BeforeProcessingInitializeOnLoad (2ms)
 			ProcessInitializeOnLoadAttributes (85ms)
 			ProcessInitializeOnLoadMethodAttributes (35ms)
+=======
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (96ms)
+		LoadAssemblies (118ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (94ms)
+			TypeCache.Refresh (93ms)
+				TypeCache.ScanAssembly (83ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (165ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (127ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (81ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+>>>>>>> 8cc21602583373c01260deee5013f86d6232bc5e
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,14 +167,20 @@ Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Per1Student\Documents\Unity\GitHub\P7RubysAdventuregutierrzez\RubysAdventure\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Per1Student\Documents\Unity\GitHub\P7RubysAdventuregutierrzez\RubysAdventure\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+<<<<<<< HEAD
 - Loaded All Assemblies, in  5.568 seconds
 Refreshing native plugins compatible for Editor in 20.56 ms, found 4 plugins.
+=======
+- Loaded All Assemblies, in  0.658 seconds
+Refreshing native plugins compatible for Editor in 23.70 ms, found 4 plugins.
+>>>>>>> 8cc21602583373c01260deee5013f86d6232bc5e
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Finished resetting the current domain, in  0.636 seconds
 Domain Reload Profiling: 6197ms
 	BeginReloadAssembly (244ms)
@@ -165,6 +222,49 @@ Unloading 5580 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 94 unused Assets / (0.9 MB). Loaded Objects now: 6033.
 Memory consumption went from 198.6 MB to 197.7 MB.
 Total: 3.167100 ms (FindLiveObjects: 0.379600 ms CreateObjectMapping: 0.156000 ms MarkObjects: 2.316400 ms  DeleteObjects: 0.313900 ms)
+=======
+- Finished resetting the current domain, in  0.478 seconds
+Domain Reload Profiling: 1134ms
+	BeginReloadAssembly (132ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (3ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (455ms)
+		LoadAssemblies (404ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (142ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (103ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (479ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (370ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (231ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 15.81 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5580 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (0.9 MB). Loaded Objects now: 6033.
+Memory consumption went from 198.7 MB to 197.8 MB.
+Total: 3.247400 ms (FindLiveObjects: 0.269100 ms CreateObjectMapping: 0.172500 ms MarkObjects: 2.488400 ms  DeleteObjects: 0.316600 ms)
+>>>>>>> 8cc21602583373c01260deee5013f86d6232bc5e
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -182,6 +282,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 9335.855041 seconds.
   path: Assets/Scripts/RubyController.cs
   artifactKey: Guid(5258855c0602f894897039e52c431b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -534,6 +635,12 @@ Received Import Request.
   path: Assets/ArtSample/Tiles/GamePalatte.prefab
   artifactKey: Guid(69d7a1d4cade9204a91a45bcc58dfa85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/ArtSample/Tiles/GamePalatte.prefab using Guid(69d7a1d4cade9204a91a45bcc58dfa85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4f1b6760e34c27b4016f9d497c10506') in 0.127717 seconds
+=======
+  Time since last request: 163294.516004 seconds.
+  path: Assets/Prefabs/LotusFlower (8).prefab
+  artifactKey: Guid(e021c3a462ce0054e800f50ff6a7a89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LotusFlower (8).prefab using Guid(e021c3a462ce0054e800f50ff6a7a89a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d52796d9c7dc0c8d100528b9761658') in 0.065941 seconds
+>>>>>>> 8cc21602583373c01260deee5013f86d6232bc5e
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 127
 ========================================================================
@@ -618,6 +725,7 @@ Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 0.000022 seconds.
   path: Assets/ArtSample/Tiles/FloorBricksToGrassSquare_2.asset
   artifactKey: Guid(4da14e8cfbd5cfe45b166aec35bd41c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -630,6 +738,12 @@ Received Import Request.
   path: Assets/ArtSample/Tiles/FloorGrassToBricksCorner_4.asset
   artifactKey: Guid(f1fc8c284017a8d48a7b6f0121524cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/ArtSample/Tiles/FloorGrassToBricksCorner_4.asset using Guid(f1fc8c284017a8d48a7b6f0121524cc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6edc5d165531fe162f941c686603da08') in 0.014963 seconds
+=======
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/LotusFlower (9).prefab
+  artifactKey: Guid(6477624c2e7b110439936060358eea27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LotusFlower (9).prefab using Guid(6477624c2e7b110439936060358eea27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48350d037d97a6186e4d597737ccc093') in 0.010267 seconds
+>>>>>>> 8cc21602583373c01260deee5013f86d6232bc5e
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 3
 ========================================================================
