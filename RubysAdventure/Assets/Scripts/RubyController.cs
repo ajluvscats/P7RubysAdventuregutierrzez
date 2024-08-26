@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.UI;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.UIElements;
 
 public class RubyController : MonoBehaviour
@@ -12,6 +13,7 @@ public class RubyController : MonoBehaviour
     Rigidbody2D rigidbody2d;
     float horizontal;
     float vertical;
+    public Text WINTEXT; 
 
     // Start is called before the first frame update
     void Start()
@@ -32,7 +34,7 @@ public class RubyController : MonoBehaviour
     {
         Vector2 position = rigidbody2d.position;
         position.x = position.x + speed * horizontal * Time.deltaTime;
-        position.y = position.y + speed * vertical * Time.deltaTime; ;
+        position.y = position.y + speed * vertical * Time.deltaTime; 
 
         rigidbody2d.MovePosition(position);
     }
@@ -41,4 +43,7 @@ public class RubyController : MonoBehaviour
         currentHealth = Mathf.Clamp(currentHealth = amount, 0, maxHealth);
         Debug.Log(currentHealth + "/" + maxHealth);
     }
+
+
+    
 }
